@@ -16,11 +16,14 @@ BDMを動かすファイル。
 
 （プラスα：実際の物をモータか何かで動かす。）
 
-## rgb-led.py
+### rgb-led.py
 三色LEDを点灯。
 
-## se10-led.py
+### se10-led.py
 人感センサ（SE-10）の入力がHIGHのとき、赤色LEDを点灯。
 
-## talk-weather.py
+### talk-weather.py
 天気予報を取得し、読み上げる。実行にjtalk.shを使用。出力はイヤホンジャック。
+
+## BDM回路図（未完成）
+何番のピンが何に対応しているかをここに書く。
