@@ -9,9 +9,16 @@ req.urlretrieve(url, savename)
 
 # JSONファイルを解析
 data = json.load(open(savename, "r", encoding="utf-8"))
-# print(data)
-text = data['description']['text']
-text = text.replace("\n", "")
+#print(data)
+
+today_weather = data['forecasts'][0]['telop']
+print('雨' in today_weather)
+
+#text = data['description']['text']
+#text = text.replace("\n", "")
+
+
+"""
 
 # 読み上げ
 def exec(cmd):
@@ -24,3 +31,4 @@ for s in lines:
     print(s)
     exec('./mei.sh "' + s + '"')
 
+"""
