@@ -111,6 +111,7 @@ try:
             ntime -= 1 # 点灯管理変数を1減らす
             if ntime < 0:
                 set_color(0, 0, 0)
+                set_color2(0, 0, 0)
         print(v, ntime)
         sleep(0.1)
 
